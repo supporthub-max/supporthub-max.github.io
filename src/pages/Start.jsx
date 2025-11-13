@@ -1,10 +1,10 @@
-import {Grid, Button} from '@maxhub/max-ui';
+import {Flex, Button} from '@maxhub/max-ui';
 
 function Start() {
 
 
        return (
-        <Grid cols={1} rows={3} gap = {12}>
+        <Flex gap = {12} direction = {"column"}>
             <Button appearance="themed" mode="primary"  onClick={() => {}} size="medium">
                 Социальный ассистент
             </Button>
@@ -15,7 +15,7 @@ function Start() {
                 Психологическая консультация
             </Button>
 
-        </Grid>)
+        </Flex>)
 
 }
 
